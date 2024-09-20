@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    height: 65px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    font-size: 20px;
+    display: flex;
+    gap:10px;
+    font-weight:900;
+}
+header .logo span{
+    color: rgb(120, 200, 0);
+
+}
+header .liens{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+header .liens a{
+    color: #333;
+
+}
+nav{
+    height: 80vh;
+    background-image: url(9a55e743-47ff-4737-a323-2cf9ec6ba717.jpg);
+    background-position: bottom;
+    block-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+nav .titre{
+    font-size: 15px;
+    color: #fff;
+    font-style: oblique;
+
+}
+nav p{
+    color:white;
+    font-size: 17px;
+    font-style: italic;
+}
+nav .bouton{
+    display: flex;
+    gap: 10px;
+
+}
+nav .bouton a{
+    border: 10px solid #fff;
+    padding: 15px;
+    color: #fff;
+}
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

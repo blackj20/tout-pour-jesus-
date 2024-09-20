@@ -1,0 +1,78 @@
+ *{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+    text-decoration:none;
+    box-sizing: border-box;
+}
+header{
+    height: 65px;
+    padding: 20px; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+header .logo{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    font: weight 900;
+}
+header .logo span{
+    color:rgb(120, 200, 0);
+    
+}
+header .liens {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+header .liens a{
+    color:#333;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+main.titre{
+    text-align: center; 
+    display: flex;
+    gap: 15px;   
+}
+main .titre p{
+    color: #ccc;
+    text-decoration:underline;
+}
+main .liste_detail{  
+    display: flex;
+    gap: 20px;
+}
+main.liste_detail .detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: #333;
+    padding: 15px;
+    border-radius: 8px;
+}
+main .liste_detail .detail img{
+    height: 2500px;
+    width: 350px;
+    border-radius: 10px;
+}
+nav .bouton{
+    display: flex;
+    gap: 10px;
+
+}
+nav .bouton p{
+    border: 1px solid #ccc;
+    padding: 15px #fff;
+
+}

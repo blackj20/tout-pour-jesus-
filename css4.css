@@ -1,0 +1,120 @@
+/* Réinitialisation des styles de base */
+* {
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Styles pour le header */
+header {
+    height: 65px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+    font-weight: 900;
+}
+
+header .logo span {
+    color: rgb(120, 200, 0);
+}
+
+header .liens {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+header .liens a {
+    color: #fff;
+}
+
+/* Styles pour la navigation */
+nav {
+    height: 80vh;
+    background-image: url('IMG-20231003-WA0019.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+nav .titre {
+    font-size: 24px;
+    color: white;
+    font-style: oblique;
+}
+
+nav p {
+    color: white;
+    font-size: 17px;
+    font-style: italic;
+}
+
+/* Styles pour la section vidéo */
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.video video {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.video-item p {
+    text-align: center;
+    color: #333;
+    font-size: 17px;
+    font-style: italic;
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media Queries pour la responsivité */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .video {
+        flex-direction: column;
+    }
+
+    nav {
+        height: auto;
+        padding: 20px;
+    }
+}
